@@ -25,6 +25,25 @@ It does **not** contain the private working memory, personal conversations, proj
 
 The private system and the public pattern are deliberately separated.
 
+
+## Who this is for
+
+This repository is **not intended as a "build your own brain in 10 minutes" starter kit**.
+
+It is primarily for people who are already experimenting with things like:
+
+- persistent AI memory,
+- agent memory across sessions,
+- AI-native PKM / second-brain systems,
+- multi-agent context sharing,
+- human-readable long-term memory,
+- continuity across chats, tools, or model vendors.
+
+The goal is to make the design choices, trade-offs, failures, and evolving structure visible enough to be useful as a **reference implementation / research notebook**.
+
+The templates are examples of the current structure, not a recommended universal schema.
+
+
 ## Core idea
 
 The "brain" is not one giant prompt.
@@ -145,7 +164,8 @@ ai-native-brain/
 ├── README.md
 ├── docs/
 │   ├── architecture.md
-│   └── continuity-memory.md
+│   ├── continuity-memory.md
+│   └── landscape.md
 └── templates/
     ├── seed.md
     ├── decision.md
@@ -153,7 +173,7 @@ ai-native-brain/
     └── project.md
 ```
 
-This repository begins with the pattern rather than a large implementation.
+This repository begins with observations and design patterns rather than a large implementation. The structure is meant to be inspected, compared, and questioned rather than copied wholesale.
 
 ## Why Git + Markdown?
 
@@ -183,7 +203,9 @@ This experiment overlaps with several existing areas:
 - Personal AI infrastructure
 - External cognition
 
-There is no claim that the terminology or mechanisms here are novel in isolation. The goal is to document a practical combination that has been useful in real human-AI work.
+There is no claim that the terminology or mechanisms here are novel in isolation. The goal is to document a practical combination that has been useful in real human-AI work, compare it with adjacent systems, and leave useful notes for others exploring the same problem space.
+
+See [docs/landscape.md](docs/landscape.md) for related projects and comparison notes.
 
 ## Status
 
