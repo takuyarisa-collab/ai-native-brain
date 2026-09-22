@@ -1,5 +1,7 @@
 # ai-native-brain
 
+[日本語](README.ja.md)
+
 > A living experiment in shared external memory for humans and AI.
 
 **ai-native-brain** is an experiment in building a personal knowledge and memory system that is useful to both a human and the AI agents they work with.
